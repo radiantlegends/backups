@@ -16,7 +16,7 @@ html {
 body {
   align-items: center;
   background-color: #E0E8FF;
-  background-image: url("/images/pattern-background-mobile.svg");
+  background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: 150%;
   display: flex;
@@ -27,7 +27,7 @@ body {
 }
 @media (min-width: 50em) {
   body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("../images/pattern-background-desktop.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 48%;
@@ -49,7 +49,7 @@ a {
   overflow: hidden;
 }
 .summary__image {
-  background-image: url("/images/illustration-hero.svg");
+  background-image: url("../images/illustration-hero.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -99,7 +99,7 @@ a {
   }
 }
 .summary .item__image {
-  background-image: url(/images/icon-music.svg);
+  background-image: url("../images/icon-music.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
