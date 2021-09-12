@@ -1,0 +1,13 @@
+$bp: ("small": "20em", "medium": "50em");
+
+@mixin bp-down($size) {
+  @media (max-width: map-get($bp, $size)) {
+    @content;
+  }
+}
+
+@mixin bp-up($size) {
+  @media(min-width: map-get($bp, $size)) {
+    @content;
+  }
+}

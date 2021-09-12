@@ -1,0 +1,7 @@
+@function toRem($n) {
+  @return ($n / 16) + rem;
+}
+
+@function toEm($n) {
+  @return ($n / 16) + em;
+}
