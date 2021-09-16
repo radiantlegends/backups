@@ -32,8 +32,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/sass-flexbox-and-grid-with-image-blend-mode-KSL2RMaKb)
+- [Live Site URL](https://your-live-site-url.com)
 
 ## My process
 
