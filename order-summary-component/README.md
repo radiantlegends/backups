@@ -14,7 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,7 +32,8 @@ Mobile
 
 ### Links
 
--
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-using-sass-flexbox-and-grid-cq25FqKoE)
+- [Live Site URL](https://radiantlegends.github.io/order-summary-component/)
 
 ## My Process
 
@@ -85,3 +85,4 @@ In future projects, I plan to continue using Sass. The syntax is convenient than
 ## Author
 
 - Frontend Mentor - [@radiantlegends](https://www.frontendmentor.io/profile/radiantlegends)
+- Upwork - [Kimberly S.](https://www.upwork.com/freelancers/~0193e4cf5120bb4dc5)
