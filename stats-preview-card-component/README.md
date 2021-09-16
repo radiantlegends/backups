@@ -33,7 +33,7 @@ Mobile
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/sass-flexbox-and-grid-with-image-blend-mode-KSL2RMaKb)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://radiantlegends.github.io/stats-preview-card-component/)
 
 ## My process
 
