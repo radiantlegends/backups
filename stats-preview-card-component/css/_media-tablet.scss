@@ -1,0 +1,30 @@
+@include min-max(phone, tablet) {
+  body {
+    font-size: toRem(12);
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .img-component {
+    order: 1;
+  }
+
+  .text-component {
+    order: 2;
+    padding: 12% 8%;
+
+    .title {
+      font-size: toRem(22);
+    }
+
+    .stat-box {
+      margin-top: toRem(30);
+
+      .stat-number {
+        font-size: toRem(18);
+      }
+    }
+  }
+}

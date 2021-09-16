@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $veryDarkBlue;
+  color: $white;
+  font-family: $ff-inter;
+  font-size: $fs-body;
+}
+
+.hide-mobile {
+  @include max(tablet) {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  display: none;
+
+  @include max(tablet) {
+    display: block;
+  }
+}

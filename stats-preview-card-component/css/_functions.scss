@@ -1,0 +1,31 @@
+@function toRem($n) {
+  @return ($n / 16) + rem;
+}
+
+@function calcRatio($w, $h) {
+  @return percentage($h / $w);
+}
+
+$breakpoints: (
+  "phone": 420px,
+  "tablet": 780px,
+  "desktop": 1024px
+);
+
+@mixin min($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin max($size) {
+  @media (max-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin min-max($min, $max) {
+  @media (min-width: map-get($breakpoints, $min) + 1px) and (max-width: map-get($breakpoints, $max))  {
+    @content;
+  }
+}
