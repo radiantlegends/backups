@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $veryLightGray;
+  font-family: $ff-lexend;
+  font-weight: 400;
+  font-size: $fs-normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: toRem(1220);
+  padding: 6%;
+}
+
+button {
+  background-color: $veryLightGray;
+  border: none;
+  border-radius: toRem(50);
+  padding: toRem(16) toRem(36);
+  font-size: toRem(16);
+  font-family: $ff-lexend;
+
+  &:hover {
+    cursor: pointer;
+    box-sizing: content-box;
+    box-shadow: inset 0 0 0 2px #fff;
+    background-color: transparent;
+    color: $veryLightGray !important;
+  }
+}

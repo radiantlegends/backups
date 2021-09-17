@@ -1,0 +1,82 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  @include min(phone) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__item {
+    color: $transparentWhite;
+    padding: 12% 14%;
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+
+    @include min-max(phone, tablet) {
+      padding: 12% 10%;
+    }
+
+    @include min(desktop) {
+      padding: 12% 16%;
+    }
+
+    h1 {
+      color: $veryLightGray;
+      font-family: $ff-bigshoulders;
+      text-transform: uppercase;
+      font-size: toRem(36);
+      letter-spacing: 1.2px;
+      margin: 10% 0;
+
+      @include min(desktop) {
+        font-size: toRem(32);
+        margin: 15% 0 10%;
+      }
+    }
+
+    p {
+      margin-bottom: 10%;
+      line-height: 1.5;
+      letter-spacing: 1.25px;
+
+      @include min(desktop) {
+        margin-bottom: 36%;
+      }
+
+      @include min-max(phone, tablet) {
+        margin-bottom: 16%;
+      }
+    }
+
+    button {
+      margin-top: auto;
+    }
+
+    &:first-child {
+      background-color: $brightOrange;
+
+      button {
+        color: $brightOrange;
+      }
+    }
+
+    &:nth-child(2) {
+      background-color: $darkCyan;
+
+      button {
+        color: $darkCyan;
+      }
+    }
+
+    &:last-child {
+      background-color: $veryDarkCyan;
+
+      button {
+        color: $veryDarkCyan;
+      }
+    }
+  }
+}

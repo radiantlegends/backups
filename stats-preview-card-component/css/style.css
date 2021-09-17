@@ -87,7 +87,6 @@ body {
 .text-component .stat-box {
   display: flex;
   justify-content: space-between;
-  text-transform: uppercase;
   margin-top: 3.75rem;
 }
 .text-component .stat-box .stat-number {
@@ -99,6 +98,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.0625rem;
   font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
 }
 
 @media (max-width: 420px) {
