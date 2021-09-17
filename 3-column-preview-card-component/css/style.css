@@ -20,7 +20,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 76.25rem;
+  max-width: 68.125rem;
   padding: 6%;
 }
 
@@ -65,7 +65,7 @@ button:hover {
 }
 @media (min-width: 1025px) {
   .grid__item {
-    padding: 12% 16%;
+    padding: 12% 15;
   }
 }
 .grid__item h1 {
@@ -85,7 +85,7 @@ button:hover {
 .grid__item p {
   margin-bottom: 10%;
   line-height: 1.5;
-  letter-spacing: 1.25px;
+  letter-spacing: 0.35px;
 }
 @media (min-width: 1025px) {
   .grid__item p {

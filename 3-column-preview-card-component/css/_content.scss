@@ -20,7 +20,7 @@
     }
 
     @include min(desktop) {
-      padding: 12% 16%;
+      padding: 12% 15;
     }
 
     h1 {
@@ -40,7 +40,7 @@
     p {
       margin-bottom: 10%;
       line-height: 1.5;
-      letter-spacing: 1.25px;
+      letter-spacing: 0.35px;
 
       @include min(desktop) {
         margin-bottom: 36%;
