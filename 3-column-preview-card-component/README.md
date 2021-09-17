@@ -40,8 +40,8 @@ Mobile
 
 ### Links
 
-- [Solution URL](#)
-- [Live Site URL](#)
+- [Solution URL](https://github.com/radiantlegends/radiantlegends.github.io/tree/main/3-column-preview-card-component)
+- [Live Site URL](https://radiantlegends.github.io/3-column-preview-card-component)
 
 ## My process
 
