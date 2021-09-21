@@ -63,7 +63,7 @@ body::after {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 36.25rem;
+  max-width: 48rem;
   padding: 8%;
 }
 
@@ -99,6 +99,7 @@ body::after {
 .profile__text {
   margin-top: 3rem;
   text-align: center;
+  padding: 10% 0 0;
 }
 .profile__text--name {
   font-size: 1.25rem;
