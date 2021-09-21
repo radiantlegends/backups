@@ -63,7 +63,7 @@ body::after {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 48rem;
+  max-width: 36rem;
   padding: 8%;
 }
 
@@ -97,7 +97,7 @@ body::after {
   border: 4px solid white;
 }
 .profile__text {
-  margin-top: 4.2rem;
+  margin-top: 3rem;
   text-align: center;
   padding: 10% 0 0;
 }
