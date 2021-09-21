@@ -63,7 +63,7 @@ body::after {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 35rem;
+  max-width: 36.25rem;
   padding: 8%;
 }
 
@@ -98,7 +98,6 @@ body::after {
 }
 .profile__text {
   margin-top: 3rem;
-  padding: 10%;
   text-align: center;
 }
 .profile__text--name {
@@ -132,7 +131,8 @@ body::after {
 .profile__stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 8% 10% 7%;
+  padding: 8% 12%;
+  gap: 0.75rem;
 }
 .profile__stats--num {
   font-weight: 700;

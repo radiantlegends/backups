@@ -27,7 +27,6 @@
 
   &__text {
     margin-top: toRem(48);
-    padding: 10%;
     text-align: center;
 
     &--name {
@@ -66,7 +65,8 @@
   &__stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 8% 10% 7%;
+    padding: 8% 12%;
+    gap: toRem(12);
 
     &--num {
       font-weight: $fw-bold;

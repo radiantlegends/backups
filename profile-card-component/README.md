@@ -33,8 +33,8 @@ Mobile
 
 ### Links
 
-- [Solution URL](#)
-- [Live Site URL](#)
+- [Solution URL](https://github.com/radiantlegends/radiantlegends.github.io/tree/main/profile-card-component)
+- [Live Site URL](https://radiantlegends.github.io/profile-card-component/)
 
 ## My process
 
@@ -105,7 +105,7 @@ body {
 
 ### Continued development
 
-I am not entirely pleased with my solution for the profile picture and medium sized screens.
+I am not entirely pleased with my solution for the profile picture and medium/XL sized screens.
 
 ### Useful resources
 
