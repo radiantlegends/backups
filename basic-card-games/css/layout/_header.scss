@@ -1,0 +1,67 @@
+.navigation {
+  background-color: $cMenuBG;
+  
+  .navbar {
+    overflow: hidden;
+    max-width: $wContent;
+    margin: 0 auto;
+
+    a {
+      float: left;
+      font-size: 1rem;
+      color: white;
+      text-align: center;
+      padding: 0.8rem 1rem;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $cMenuHoverBG;
+      }
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+
+      &:hover .dropdown-btn {
+        background-color: $cMenuHoverBG;
+        cursor: pointer;
+      }
+
+      & .dropdown-btn {
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 0.8rem 1rem;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      &-content {
+        display: none;
+        position: absolute;
+        background-color: $cMenuDropdownBG;
+        min-width: 10rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
+        z-index: 1;
+
+        a {
+          float: none;
+          color: black;
+          display: block;
+          text-align: left;
+
+          &:hover {
+            background-color: $cMenuDropdownHoverBG;
+          }
+        }
+      }
+
+      &:hover .dropdown-content {
+        display: block;
+      }
+    }
+  }
+}

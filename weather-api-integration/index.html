@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather API Integration</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="weather-container">
+      <p class="location" id="location"></p>
+      <img src="" alt="" class="weather-icon">
+      <p class="weather"></p>
+      <p class="temp"></p>
+    </div>
+    <div>
+      <form id="loc">
+        <label for="loc_city">City</label>
+        <input type="text" id="loc_city" name="city">
+
+        <label for="loc_state">State</label>
+        <select type="text" id="loc_state" name="state">
+          <option value="us-ma">Massachusetts</option>
+          <option value="us-nc">North Carolina</option>
+          <option value="us-sc">South Carolina</option>
+          <option value="us-tx">Texas</option>
+        </select>
+      </form>
+      <button onclick="updateLocation()">Submit</button>
+    </div>
+  </div>
+</body>
+</html>

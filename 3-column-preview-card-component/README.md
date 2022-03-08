@@ -49,7 +49,7 @@ Mobile
 
 - Visual Studio Code
 - HTML / CSS
-- Sass
+- SCSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
