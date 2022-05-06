@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Nasa21";
+  src: url(./Nasa21.ttf);
+}
+.ff-nasa {
+  font-family: "Nasa21", Arial, Helvetica, san-serif;
+}
+
+.bg-hero {
+  background-color: #18C5BF;
+  background: linear-gradient(#18C5BF, #18C5BF 75%, #fff 75%, #fff);
+}
+
+.bg-primary {
+  background-color: #04a9a3 !important;
+}/*# sourceMappingURL=style.css.map */

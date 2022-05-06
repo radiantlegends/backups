@@ -12,8 +12,8 @@ body {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background-color: #090b1a;
-  color: white;
+  background-color: hsl(233deg, 47%, 7%);
+  color: hsl(0deg, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-size: 0.9375rem;
 }
@@ -41,14 +41,14 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #1b1938;
+  background-color: hsl(244deg, 38%, 16%);
   border-radius: 0.5rem;
   overflow: hidden;
   margin: 2rem;
 }
 
 .img-component {
-  background-color: #aa5cdb;
+  background-color: hsl(277deg, 64%, 61%);
   position: relative;
 }
 .img-component img {
@@ -65,7 +65,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #aa5cdb;
+  background-color: hsl(277deg, 64%, 61%);
   opacity: 0.25;
 }
 
@@ -78,10 +78,10 @@ body {
   margin-bottom: 1.5rem;
 }
 .text-component .title span {
-  color: #aa5cdb;
+  color: hsl(277deg, 64%, 61%);
 }
 .text-component .description {
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 2;
 }
 .text-component .stat-box {
@@ -95,7 +95,7 @@ body {
   margin-bottom: 0.5rem;
 }
 .text-component .stat-box .stat-title {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0deg, 0%, 100%, 0.6);
   letter-spacing: 0.0625rem;
   font-family: "Lexend Deca", sans-serif;
   text-transform: uppercase;

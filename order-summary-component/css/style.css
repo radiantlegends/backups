@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  color: #3829e0;
+  color: hsl(245deg, 75%, 52%);
   cursor: pointer;
   text-decoration: underline;
 }
@@ -68,19 +68,19 @@ a {
   text-align: center;
 }
 .summary__text h1 {
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
   font-weight: 900;
   margin-bottom: 1.25rem;
   margin-top: 2rem;
 }
 .summary__text p {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
 .summary .item {
   align-items: center;
-  background-color: #f5f7ff;
+  background-color: hsl(225deg, 100%, 98%);
   border-radius: 0.75rem;
   -moz-column-gap: 0.875rem;
        column-gap: 0.875rem;
@@ -108,12 +108,12 @@ a {
   width: 3.25rem;
 }
 .summary .item__name {
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
   font-weight: 900;
   grid-area: name;
 }
 .summary .item__price {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   grid-area: price;
 }
 .summary .item__link {
@@ -138,7 +138,7 @@ a {
   }
 }
 .summary .button {
-  background-color: #3829e0;
+  background-color: hsl(245deg, 75%, 52%);
   border: 0;
   border-radius: 0.75rem;
   box-shadow: 0 22px 22px 0px rgba(56, 41, 224, 0.2);
@@ -157,7 +157,7 @@ a {
   opacity: 0.75;
 }
 .summary .cancel {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   display: block;
   font-weight: 700;
   margin: 0 auto;
@@ -170,5 +170,5 @@ a {
   width: fit-content;
 }
 .summary .cancel:hover {
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }/*# sourceMappingURL=style.css.map */

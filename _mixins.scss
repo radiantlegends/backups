@@ -1,0 +1,13 @@
+$bp: ("sm": "576px", "md": "768px", "lg": "992px", "xl": "1200px", "xxl": "1400px");
+
+@mixin bp-down($size) {
+  @media (max-width: map-get($bp, $size)) {
+    @content;
+  }
+}
+
+@mixin bp-up($size) {
+  @media(min-width: map-get($bp, $size)) {
+    @content;
+  }
+}
